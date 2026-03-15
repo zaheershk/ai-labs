@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Build output
+dist/
+build/
+out/
+*.js.map
+
+# Environment & secrets — never commit these
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Test / coverage
+coverage/
+.nyc_output/
+.pytest_cache/
+
+# Data files (vector stores, embeddings, uploaded docs)
+*.faiss
+*.pkl
+chroma_db/
+pinecone_cache/
+data/raw/
+data/processed/
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+poetry.lock
