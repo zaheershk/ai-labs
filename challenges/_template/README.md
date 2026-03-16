@@ -24,6 +24,14 @@
 |------|-------|
 | | |
 
+## Pay Attention To
+
+Key lines in [src/agent.ts](src/agent.ts) — agentic integration points worth understanding:
+
+| What | Where | Why it matters |
+|------|-------|----------------|
+| <!-- e.g. Tool definitions --> | [agent.ts:NN](src/agent.ts#LNN) | <!-- What the reader should understand from this --> |
+
 ## Run & Validate
 
 **Setup:**

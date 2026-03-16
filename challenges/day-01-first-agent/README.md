@@ -46,6 +46,19 @@ Other frameworks/tools that implement the same pattern:
 
 **When to use the raw SDK approach (like this challenge):** prototyping, learning, or when you need full control over the loop and message history.
 
+## Pay Attention To
+
+Key lines in [src/agent.ts](src/agent.ts) — the agentic integration points worth understanding:
+
+| What | Where | Why it matters |
+|------|-------|----------------|
+| **Tool definitions** | [agent.ts:14–48](src/agent.ts#L14-L48) | How you declare tools Claude can call — name, description, and JSON Schema input spec |
+| **`client.messages.create` with `tools`** | [agent.ts:119–124](src/agent.ts#L119-L124) | The single API call that drives each step — passing the full message history + tool list |
+| **`stop_reason === "tool_use"`** | [agent.ts:141](src/agent.ts#L141) | How you detect Claude wants to call a tool vs. is done reasoning |
+| **Appending assistant response to history** | [agent.ts:143](src/agent.ts#L143) | Critical — Claude's reasoning must be in the history or the next call loses context |
+| **`tool_result` fed back as user message** | [agent.ts:159–168](src/agent.ts#L159-L168) | How tool output is returned to Claude so it can continue reasoning |
+| **`MAX_STEPS` ceiling** | [agent.ts:114](src/agent.ts#L114) | Safety guardrail — always cap your agent loop |
+
 ## Run & Validate
 
 **Setup:**
