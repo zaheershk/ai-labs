@@ -1,0 +1,71 @@
+{
+  "topic": "Global AI market size and enterprise adoption rates",
+  "phase": 2,
+  "claims": [
+    {
+      "claim": "Global AI market valued at $142B in 2024",
+      "evidence_excerpt": "AI market valued at $142B in 2024",
+      "source_url": "https://example.com/ai-market",
+      "source_name": "Tech Research Group",
+      "publication_date": "2024-01-10",
+      "confidence": "high"
+    },
+    {
+      "claim": "AI market projected to reach $1.8T by 2030 with 38% CAGR",
+      "evidence_excerpt": "Projected to reach $1.8T by 2030 at 38% CAGR",
+      "source_url": "https://example.com/ai-forecast",
+      "source_name": "Market Analysts Inc",
+      "publication_date": "2024-02-15",
+      "confidence": "medium"
+    },
+    {
+      "claim": "67% of enterprises deployed AI in production as of Q4 2023",
+      "evidence_excerpt": "Enterprise adoption of AI in production environments reached 67% by the end of Q4 2023",
+      "source_url": "https://example.com/ai-enterprise-report-2024",
+      "source_name": "Enterprise AI Survey",
+      "publication_date": "2024-02-20",
+      "confidence": "high"
+    },
+    {
+      "claim": "AI market size estimated at $150B in 2024",
+      "evidence_excerpt": "The global AI market is valued at approximately $150 billion in 2024",
+      "source_url": "https://example.com/ai-enterprise-report-2024",
+      "source_name": "Enterprise AI Survey",
+      "publication_date": "2024-02-20",
+      "confidence": "medium"
+    },
+    {
+      "claim": "AI infrastructure spend growing at 42% annually",
+      "evidence_excerpt": "Infrastructure investment reached $48B in 2023...",
+      "source_url": "https://example.com/ai-infra-partial",
+      "source_name": "Infrastructure Weekly (partial)",
+      "publication_date": "2024-01-05",
+      "confidence": "low"
+    },
+    {
+      "claim": "AI market valued at $142B in 2024",
+      "evidence_excerpt": "AI market valued at $142B in 2024",
+      "source_url": "https://example.com/ai-market",
+      "source_name": "Tech Research Group",
+      "publication_date": "2024-01-10",
+      "confidence": "high"
+    },
+    {
+      "claim": "AI market projected to reach $1.8T by 2030 at 38% CAGR",
+      "evidence_excerpt": "Projected to reach $1.8T by 2030 at 38% CAGR",
+      "source_url": "https://example.com/ai-forecast",
+      "source_name": "Market Analysts Inc",
+      "publication_date": "2024-02-15",
+      "confidence": "medium"
+    }
+  ],
+  "coverage_gaps": [
+    "What is the projected CAGR for AI infrastructure specifically?",
+    "Do adoption rates differ by industry vertical?"
+  ],
+  "sources_visited": [
+    "https://example.com/ai-market-2024",
+    "https://example.com/ai-survey-2024"
+  ],
+  "timestamp": "2026-06-18T17:58:07.568Z"
+}

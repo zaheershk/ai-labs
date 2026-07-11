@@ -1,0 +1,24 @@
+{
+  "name": "cca-f-prep",
+  "version": "1.0.0",
+  "description": "Claude Certified Architect – Foundations exam prep (5-day hands-on labs)",
+  "scripts": {
+    "lab-01": "ts-node labs/day-01-agentic-arch/src/index.ts",
+    "lab-02": "ts-node labs/day-02-tool-mcp/src/index.ts",
+    "lab-03": "ts-node labs/day-03-claude-code/src/index.ts",
+    "lab-04": "ts-node labs/day-04-structured-output/src/index.ts",
+    "lab-05": "ts-node labs/day-05-context-reliability/src/index.ts",
+    "mcp-02": "ts-node labs/day-02-tool-mcp/mcp-server/src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

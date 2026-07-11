@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "dev-productivity": {
+      "command": "node_modules/.bin/ts-node",
+      "args": ["labs/day-02-tool-mcp/mcp-server/src/index.ts"],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
+  }
+}
